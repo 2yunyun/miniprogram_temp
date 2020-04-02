@@ -1,0 +1,41 @@
+<view class="index">
+
+	<view class="index-bd">
+		<view class="page-body swiperWrap">
+			<view class="page-section page-section-spacing swiper">
+				<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+					<block wx:for="{{background}}" wx:key="*this">
+						<swiper-item>
+							<view class="swiper-item {{item}}"></view>
+						</swiper-item>
+					</block>
+				</swiper>
+			</view>
+		</view>
+
+		<view class="page_title_hd">
+			<view class="page_title_text">产品信息</view>
+		</view>
+		<view class="productInfo weui-flex">
+			<view class="productInfo_l">
+			</view>
+			<view class="productInfo_r">
+				<view class="productInfo_r_t">
+				</view>
+				<view class="productInfo_r_b">
+				</view>
+
+			</view>
+		</view>
+
+		<view class="page_title_hd page_flex">
+			<view class="page_title_text">健康计划</view>
+			<view class="page_title_sec page_flex">
+				<view class="pt_sec_text page_flex">更多</view>
+				<image class="pt_sec_img" src=""></image>
+			</view>
+		</view>
+
+
+	</view>
+</view>
